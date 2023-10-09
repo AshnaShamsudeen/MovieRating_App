@@ -1,0 +1,163 @@
+body {
+    background-image: url('C:\MovieRatingFrEnd\movie-mania-app0\public\images\ad.png');
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
+   
+ 
+  }
+  .mt-5 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+/* Styles for the title */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #001c30;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .admin-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .admin-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Styles for the buttons */
+  .button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    background-color: #001c30;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .button-container button:hover {
+    background-color: #ffffff;
+    color: #001c30;
+  }
+  .button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    background-color: #001c30;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .button-container button:hover {
+    background-color: #ffffff;
+    color: #001c30;
+  }
+  
+  /* Modal styles */
+  .modal-header {
+    background-color: #001c30;
+    color: #ffffff;
+    border-bottom: none;
+  }
+  
+  .modal-footer {
+    border-top: none;
+  }
+  
+  /* Card styles inside the modal */
+  .modal-body .card {
+    background: #001c30;
+    border: none;
+  }
+  
+  .modal-body .card-body {
+    padding: 40px 20px;
+  }
+  
+  .modal-body .card-text {
+    font-size: 18px;
+  }
+  
+  .modal-body .card i {
+    font-size: 48px;
+    color: #ffffff;
+  }
+  
+  /* Hover effect for cards inside the modal */
+  .modal-body .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  /* style.css */
+.styled-button {
+    background-color:dimgray; /* Green color */
+    color:aliceblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .styled-button:hover {
+    background-color:#001c30; /* Darker green color on hover */
+  }
+  
+  
+/* style.css */
+.waving-text {
+    position: relative;
+  }
+  
+  .wave {
+    animation: wave-animation 1.5s infinite;
+  }
+  
+  @keyframes wave-animation {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  

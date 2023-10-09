@@ -1,0 +1,17 @@
+/* styles.css */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .card {
+    background-size: cover;
+    /* You can add more styles if needed */
+  }

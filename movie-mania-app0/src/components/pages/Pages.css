@@ -1,0 +1,13 @@
+.homeCard {
+    background-color: #001c30;
+   
+    
+  }
+  .custom-row {
+   min-height: 100vh;
+   margin-top: 95px;
+  }
+
+    .row mt-4{
+      min-height: 100px;
+    }
