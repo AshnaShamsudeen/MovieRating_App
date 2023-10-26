@@ -40,7 +40,7 @@ const MovieCard = ({ movie,onAddRatingClick }) => {
      
     
     <div className="card-body d-flex flex-column justify-content-center align-items-start">
-        <h4 className="card-title text-center mb-4"><strong>{movie.movieName}</strong></h4>
+        <h4 className="card-title text-center mb-1"><strong>{movie.movieName}</strong></h4>
         <p >
             
           <strong>Language:</strong> {movie.language} <br /></p>

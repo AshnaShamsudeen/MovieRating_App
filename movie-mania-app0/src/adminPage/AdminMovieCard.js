@@ -1,5 +1,7 @@
 import React, { useState,useEffect } from "react";
 import { Button, Modal, Form } from "react-bootstrap";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const AdminMovieCard = ({ movie, onUpdateClick, onDeleteClick,key }) => {
   const [remark, setRemark] = useState("");
@@ -48,6 +50,9 @@ const handleUpdateClick = () => {
         // Handle successful response, e.g., show a success message
         console.log("Movie updated successfully!", data);
         onUpdateClick(data);
+        toast.success("Movie updated successfully!", {
+            position: toast.POSITION.TOP_CENTER,
+          });
        
       })
       .catch((error) => {
@@ -78,6 +83,7 @@ const handleUpdateClick = () => {
         // Handle success message, e.g., show toast message
         handleDeleteModalClose();
         onDeleteClick(movie.id, { ...formData });
+        alert("Movie deleted successfully!");
       })
       .catch((error) => {
         console.error("Error deleting movie: ", error);

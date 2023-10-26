@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/home">
           <span
             style={{
               background: "linear-gradient(to right, #FD8D14, #C51605)",
@@ -40,6 +40,11 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/guest">
+                Guest
+              </Link>
+            </li>
             {showMoviesAndLists && (
           <>
             <li className="nav-item">
@@ -57,6 +62,7 @@ const Navbar = () => {
                 Lists
               </Link>
             </li>
+            
             </>
         )}
 
@@ -97,7 +103,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/terms">
+                  <Link className="dropdown-item" to="/home">
                     LogOut
                   </Link> 
                 </li>
@@ -117,7 +123,7 @@ const Navbar = () => {
               </button>
             </form> */}
              <li className="nav-link active">
-              <Link className="btn btn-dark" to="/login">
+              <Link className="btn btn-dark" to="/logining">
                 Login/SignUp
               </Link>
             </li>

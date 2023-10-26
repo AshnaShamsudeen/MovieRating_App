@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import HomeCard from "./HomeCard";
+import Footer from "../../footer/Footer";
 import "./Pages.css"
 
 
@@ -73,8 +74,8 @@ const HomePage = () => {
           />
         </div>
 
-        {location.pathname === "/" && <HomeCard />}
-
+        {location.pathname === "/" && <HomeCard /> || <Footer/>}
+               
         {/* <PopularWeek /> */}
       </div>
     </div>

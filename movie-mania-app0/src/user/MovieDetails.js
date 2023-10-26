@@ -28,7 +28,7 @@ const MovieDetails = () => {
             className="img-fluid"
           />
           <h3>{selectedMovie.movieName}</h3>
-          {/* <p>{selectedMovie.movieName}</p> */}
+          <p>{selectedMovie.movieName}</p>
           <p>{selectedMovie.actorName}</p>
         </div>
         <div className="col-md-6">

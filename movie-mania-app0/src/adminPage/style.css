@@ -1,7 +1,6 @@
 body {
     background-image: url('C:\MovieRatingFrEnd\movie-mania-app0\public\images\ad.png');
     background-size: cover;
- 
     background-repeat: no-repeat;
    
  
@@ -14,6 +13,7 @@ body {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+ 
 /* Styles for the title */
 h1 {
     text-align: center;
@@ -71,7 +71,7 @@ h1 {
   
   .button-container button:hover {
     background-color: #ffffff;
-    color: #001c30;
+    color:dodgerblue;
   }
   .button-container {
     text-align: center;
@@ -80,7 +80,7 @@ h1 {
   
   .button-container button {
     margin: 0 10px;
-    background-color: #001c30;
+    background-color:#001c30;
     border: none;
     color: #ffffff;
     font-size: 18px;
@@ -127,6 +127,7 @@ h1 {
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
+  
   /* style.css */
 .styled-button {
     background-color:dimgray; /* Green color */
@@ -142,6 +143,9 @@ h1 {
     background-color:#001c30; /* Darker green color on hover */
   }
   
+  .modal-body{
+    text-align: center;
+  }
   
 /* style.css */
 .waving-text {

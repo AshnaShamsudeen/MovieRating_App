@@ -6,27 +6,34 @@
     /* background-color: #f9f9f9; */
     background-image: "C:\MovieRatingFrEnd\movie-mania-app0\public\images\ad.png";
     min-height: 100vh;
+    border: 0px solid transparent;
   }
   
   .about-title {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
-    color:#001c30;
+    color:azure;
+    border: 0px solid transparent;
     margin-bottom: 20px;
   }
   
   .about-content {
     font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     font-family: 'Times New Roman', Times, serif;
-    color:black;
+    color:bisque;
     line-height: 1.6;
+    border: 0px solid transparent;
     text-align:center;
   }
   .cont{
-    background-color:darkgray;
+    /* background-color:darkgray; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     min-height: 50vh;
     text-align: justify;
     margin-top: 70px;
+    border: 0px  transparent;
+   
   }
   h2{
     font-family: 'Times New Roman', Times, serif;

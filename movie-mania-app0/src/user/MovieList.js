@@ -17,9 +17,11 @@ const MovieList = ({movie}) => {
   const handleStarClick = (star) => {
     setRating(star);
   };
+ 
+  
 
   const handleAddRatingClick = () => {
-    handleAddRating(rating, remark);
+    handleAddRating(movie.movieId,rating, remark);
     handleModalClose();
   };
   const handleSearch = () => {
